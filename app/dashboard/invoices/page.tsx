@@ -9,8 +9,9 @@ import { Suspense } from 'react';
 import { Metadata } from 'next';
 
 //If you want custom metadata, step over parents metadata
+//Add Invoices in root template title
 export const metadata: Metadata = {
-  title: 'Invoices | Acme Dashboard',
+  title: 'Invoices',
 };
 
 export default async function Page({
