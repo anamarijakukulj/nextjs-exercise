@@ -7,7 +7,8 @@ import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 import { Metadata } from 'next';
- 
+
+//If you want custom metadata, step over parents metadata
 export const metadata: Metadata = {
   title: 'Invoices | Acme Dashboard',
 };
